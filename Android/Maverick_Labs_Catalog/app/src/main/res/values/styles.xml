@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="Widget.Theme.Maverick_Labs_Catalog.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="Widget.Theme.Maverick_Labs_Catalog.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+</resources>
